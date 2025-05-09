@@ -1,12 +1,20 @@
 {
-  "name": "optional-ts",
+  "name": "optional-jvts",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
-  "keywords": ["optional", "java", "typescript", "nullable"],
+  "keywords": [
+    "optional",
+    "java",
+    "typescript",
+    "nullable"
+  ],
   "author": "Javier Avila njavilas2015@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
 }
